@@ -1,0 +1,24 @@
+.hero.is-medium.landing-bg {
+  background-repeat: no-repeat;
+  background: url("./img/bg.jpg") center center;
+  background-size: cover;
+}
+
+.title {
+  color: #1697cd;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 0.8em;
+}
+
+.tagline {
+  color: #699f7e !important;
+  position: relative;
+  left: 64px;
+}
+
+.table thead td,
+.table thead th {
+  border-width: 0 0 2px;
+  color: #699f7e;
+}

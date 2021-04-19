@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Flight Finder</title>
+    <link rel="shortcut icon" type="img/png" href="assets/img/plane.png"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <link rel="stylesheet" href="assets/style.css">
+  </head>
+
+
+  <body>
+
+
+    <nav class="navbar has-shadow">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="/">
+          <div class="title is-family-monospace	">Flight<br>Finder</div>
+        </a>
+      </div>
+    </div>
+  </nav>
+  <div class="tagline">find at the speed of flight</div>
+  
+
+    <section class="hero is-medium landing-bg">
+      <div class="hero-body">
+        <div class="container has-text-centered">
+          <div class="columns">
+            <div class="column"></div>
+            <div class="column is-6">
+              <h1 class="title is-1 is-italic has-text-weight-bold has-text-white	is-family-monospace">Search Nearby
+                Airports</h1>
+              <p>
+                <form>
+                  <div class="field ">
+                    <div class="control is-large has-icons-left" id="loading">
+                      <input class="input is-large" type="text" placeholder="Enter place or city name" id="search">
+                      <span class="icon is-medium is-left">
+                        <i class="fas fa-search"></i>
+                      </span>
+                    </div>
+                  </div>
+                </form>
+              </p>
+            </div>
+            <div class="column"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="section">
+      <div class="columns">
+        <div class="column"></div>
+        <div class="column" align="center">
+  
+          <div id="notification">
+  
+          </div>
+  
+          <div class="container">
+            <table class="table is-hoverable is-striped">
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Airport Code</th>
+                  <th>Type</th>
+  
+                  <th>City</th>
+                  <th>State/Province</th>
+                  <th>Country</th>
+                </tr>
+              </thead>
+              <tbody id="displayRow">
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="column"></div>
+      </div>
+    </div>
+
+    <div id="app"></div>
+    <script src="src/app.js"></script>
+    <script src="build/app.bundle.js"></script>
+  </body>
+</html>
