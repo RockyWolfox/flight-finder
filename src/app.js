@@ -18,8 +18,8 @@ searchAirport.addEventListener("keyup", (e) => {
   if (term !== "") {
     // Make an HTTP Call to API
     const api = multi({
-      key: "9cae7c9607",
-      secret: "dee228ce29608b0", // Your API Secret Key: use this if you are not connecting from a web server
+      key: "bf5a4a1e75",
+      secret: "05c46690570eabd", // Your API Secret Key: use this if you are not connecting from a web server
       limit: 20,
     });
 
