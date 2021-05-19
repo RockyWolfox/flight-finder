@@ -37,7 +37,7 @@ $ npm run build
 ### Author
 
 Rocky Romorosa
-[Gestalt Media](www.gestalmedianow.com)
+(www.behance.net/rockywolfox)
 
 ### License
 
